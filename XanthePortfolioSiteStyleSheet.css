@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+* 
+{
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+#header
+{
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header .logo
+{
+    font-size: 2em;
+    text-decoration: none;
+    color: #6e5351;
+    font-weight: 700;
+}
+
+#header ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header ul li
+{
+    margin-left: 20px;
+    list-style: none;
+}
+
+#header ul li a
+{
+text-decoration: none;
+padding: 6px 15px;
+color: #6e5351;
+border-radius: 20px;
+}
+
+#header ul li a:hover ,
+#header ul li a.active
+{
+    background:#6e5351;
+    color:#fff;
+}
+
+section
+{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #text
+{
+    position: absolute;
+    color:#6e5351;
+    font-size: 10vw;
+    text-align: center;
+    line-height: 0.55em;
+    font-family: 'Outfit', sans-serif;
+}
+
+section #text span
+{
+    font-size: 0.20em;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
