@@ -9,7 +9,7 @@
 
     <body style="background-color:rgb(255, 243, 242);">
         <header id="header"> 
-            <a href="#" class="logo">XANTHE</a>
+            <a href="#" class="logo">My Portfolio</a>
             <ul>
                 <li><a href="#" class="active">Home</a></li>
                 <li><a href="#">About Me</a></li>
@@ -24,10 +24,23 @@
             <img src="WebsiteLayer4.png" id="Layer4">
             <img src="WebsiteLayer5.png" id="Layer5">
         </section>
-        <div class="sec">
-            <h2>HELLO</h2>
-            <p> aiyugtpouiaegt</p>
+        <div class="informationBox">
+            <h2> Hi, My name is Xanthe!</h2>
+            <p>I'm an aspiring web developer. This portfolio is to tell you a bit about me and demonstrate some techniques I've learnt over time using HTML, CSS and Javascript. You will be able to learn my achievements, goals and much more with the use of the buttons at the top! This portfolio will hopefully show you how I've expanded over time and I hope you are able to enjoy it. But first of all, who actually am I?</p> 
+        
+        
         </div>
+        <!--  using javascript to make scroll wheel usable -->
+        <script>
+            let text = document.getElementById('text');
+
+            window.addEventListener('scroll', function(){ 
+                let value = window.scrollY;
+
+                text.style.top = 10 + value * -0.1 + '%';
+            })
+
+        </script>
     </body>
 
 </html>

@@ -6,6 +6,12 @@
     font-family: 'poppins', sans-serif;
 }
 
+body
+{
+    overflow-x: hidden;
+    background-color: #fff;
+    min-height: 100vh;
+}
 #header
 {
     padding: 30px 100px;
@@ -52,11 +58,22 @@ border-radius: 20px;
 section
 {
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+section::before
+{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:100px;
+    background: linear-gradient(to top, #77564b, transparent);
+    z-index: 10; 
 }
 section img
 {
@@ -85,20 +102,24 @@ section #text span
     letter-spacing: 2px;
     font-weight: 400;
 }
-.sec
+.informationBox
 {
     position:static;
     padding: 50px;
     background:#77564b;
 }
-.sec h2
+.informationBox h2
 {
+    font-family: Verdana;
     font-size: 4em;
     color: #fff;
     margin-bottom: 20px;   
 }
-.sec p
+.informationBox p
 {
+    font-family: Verdana;
     color: #fff;
-    font-size: 1em;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
