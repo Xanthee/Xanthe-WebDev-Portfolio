@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=poppins:300,400,500,600,700,800,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
-* 
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital@1&display=swap');
+*
+/* ----------------- Top of page ------------------ */ 
 {
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
@@ -102,24 +104,91 @@ section #text span
     letter-spacing: 2px;
     font-weight: 400;
 }
+
+/* --------------- contents inside the home page ---------------------- */
+
 .informationBox
 {
     position:static;
     padding: 50px;
     background:#77564b;
+    height: 500px;
+    font-family: 'Outfit', sans-serif;
 }
-.informationBox h2
+
+.informationBox
 {
-    font-family: Verdana;
-    font-size: 4em;
+    font-size: 30px;
     color: #fff;
-    margin-bottom: 20px;   
 }
-.informationBox p
+
+.informationBox h1
 {
-    font-family: Verdana;
+    font-size: 90px;
+    margin-top: 20px;
+}
+
+
+/* ------------------------ about me in home page -------------------------- */
+
+.informationBox2
+{
+    background: #77564b;
+    height: 1000px;
+    padding: 80px 0;
     color: #fff;
-    font-size: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+}
+
+.row 
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about1
+{
+    flex-basis: 35%;
+}
+.about1 img
+{
+    width: 100%;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.about2
+{
+    flex-basis: 60%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+}
+
+.subTitle
+{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.tabTitles
+{
+    margin-right: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+.tabContents ul li
+{
+    margin: 10px 0;
+    list-style: none;
+}
+
+.tabContents ul li span
+{
+    font-size: 15px;
+    color: #fac3c8;
 }

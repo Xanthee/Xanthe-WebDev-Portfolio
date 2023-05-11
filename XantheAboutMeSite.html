@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Xanthe's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="XanthePortfolioSiteStyleSheet.css"> 
+    </head>
+
+    <body style="background-color:rgb(255, 243, 242);">
+        <header id="header"> 
+            <a href="XanthePortfolioSite.html" class="logo">My Portfolio</a>
+            <ul>
+                <li><a href="XanthePortfolioSite.html" class="active">Home</a></li>
+                <li><a href="XantheAboutMeSite.html">About Me</a></li>
+                <li><a href="XantheAchievementsSite.html">Achievements</a></li>
+                <li><a href="XantheContactSite.html">Contact</a></li>
+            </ul>
+        </header>
+        <section>
+            <h2 id="text"><br>About Me</h2>
+            <img src="WebsiteLayer1.png" id="Layer1">
+            <img src="WebsiteLayer3.png" id="Layer3">
+            <img src="WebsiteLayer4.png" id="Layer4">
+            <img src="WebsiteLayer5.png" id="Layer5">
+        </section>
+        <div class="informationBox">
+            <h2>Who Am I?</h2>
+            <ol>Some of my passions and interests are:</ol>
+            <li>Coding</li>
+            <li>Cooking</li>
+            <li>Graphic design</li>
+            <li>Drawing</li>
+            <li>Skiing</li>
+            <p>I've had the opportunity to partake in many different work placements during college while studying the T-level in Digital production, Design and Development such as joining a placement based on animation, graphic design and art and another that allowed me to expand my skills in coding, web development and collaborating with other coders but am also excited to continue exploring new challenges and opportunities.</p>
+            
+        
+        
+        </div>
+        <!--  using javascript to make scroll wheel usable -->
+        <script>
+            let text = document.getElementById('text');
+
+            window.addEventListener('scroll', function(){ 
+                let value = window.scrollY;
+
+                text.style.top = 10 + value * -0.1 + '%';
+            })
+
+        </script>
+    </body>
+
+</html>
