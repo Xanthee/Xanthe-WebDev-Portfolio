@@ -166,7 +166,7 @@ section #text span
 
 .subTitle
 {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 600;
     color: #fff;
 }
@@ -205,4 +205,79 @@ section #text span
     background: linear-gradient(to bottom, #fac3c8, transparent);
     padding: 80px 0;
     color: #77564b;
+}
+
+.pb-2
+{
+    margin-left: 50px;
+}
+
+.informationBox5
+{
+    padding: 100px;
+    position:static;
+    padding: 50px;
+    background:#77564b;
+    height: 1200px;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(to bottom, #77564b, #fac3c8);
+}
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+
+.featurette-heading {
+    font-size: 50px;
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  /* rtl:begin:remove */
+  .featurette-heading {
+    letter-spacing: -.05rem;
+  }
+
+.row3{
+    background:#77564b;
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(to bottom, #77564b, #fac3c8);
+    font-family: 'Outfit', sans-serif;
+    padding: 100px;
+}  
+
+.contactsBox
+{
+    padding: 100px;
+    position:static;
+    padding: 50px;
+    background:#77564b;
+    height: 150px;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+}
+
+.contantPageSpace{
+    height: 100px;
+    background: #fac3c8;
 }
