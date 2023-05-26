@@ -281,3 +281,30 @@ section #text span
     height: 100px;
     background: #fac3c8;
 }
+
+.table {
+    font-family: arial, sans-serif;  
+    border-collapse: collapse;  
+    width: 100%;  
+}
+  
+  
+.td, th { 
+    border: 1px solid #6e5351;  
+    text-align: left; 
+    padding: 8px;  
+}
+
+
+.informationBox6
+{
+    padding: 100px;
+    position:static;
+    padding: 50px;
+    background:#77564b;
+    height: 700px;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(to bottom, #77564b, #fac3c8);
+}
